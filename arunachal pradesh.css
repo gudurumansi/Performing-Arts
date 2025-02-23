@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px;
+    text-align: center; 
+    background: rgb(221, 230, 237);
+}
+
+h1 {
+    color: #27374D;
+    font-family: Times New Roman, Times, serif; font-size: 60px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 9.9px; 
+    transition: color 0.3s;
+    scrollbar-highlight-color: #27374D;
+    margin-bottom: 90px;
+}
+p.intro-paragraph {
+    text-align: left;
+    margin-bottom: 90px; 
+}
+.grid-container {
+    margin-top: 70px;
+}
+
+h1:hover {
+    color: #27374D;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+p:hover {
+    font-size: 25px;
+}
+
+
+h3 {
+    padding: 20px;
+    background-color: #526D82; 
+    transition: background-color 0.3s;
+    text-align: center;
+    border-radius: 10px; 
+    font-size: 25px;
+}
+
+h3:hover {
+    background-color: white; 
+    font-size: 30px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #9DB2BF; 
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.grid-item:hover {
+    background-color:white; 
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+   
+}
+
+img.circular-to-square {
+    width: 200%; 
+    height: 250px; 
+    margin: 60px; 
+    border-radius: 50%; 
+    transition: border-radius 0.3s; 
+}
+
+img.circular-to-square:hover {
+    border-radius: 0; 
+}
+
+
+
+
+

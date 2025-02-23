@@ -1,0 +1,67 @@
+.maincontainer
+{
+    position: relative;
+    width: 300px;
+    height: 330px;
+    margin-left: 80px;
+}
+.thecard
+{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background-color: beige;
+}
+.thecard:hover
+{
+    transform: rotateY(180deg);
+}
+.thefront
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:beige;
+    color: black;
+    text-align: center;
+}
+.theback
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:beige;
+    color:black;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-size: 24px;
+}
+.image
+{
+    width: 250px;
+    height: 280px;
+    margin-top: 25px;
+}
+.maincontainer1
+{
+    position: relative;
+    width: 600px;
+    height: 200px;
+    margin-left: 80px;
+}
+.theback1
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:grey;
+    color:black;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-size: 24px;
+}

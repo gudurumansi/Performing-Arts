@@ -1,0 +1,85 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:white;
+}
+h1
+{
+    font-size: 120px;
+    text-align: center;
+    color:white;
+    opacity: 0.8;
+}
+h2
+{
+    font-size: 32px;
+    text-align: center;
+    color:black;
+    font-weight: 200;
+    margin: 20px 0 10px;
+}
+p
+{
+    font-size: 24px; 
+    color: black;
+    text-align: justify;
+    margin: 0 50px 40px;
+}
+
+.background-img1
+{
+    background: url(https://live.staticflickr.com/5640/23052751850_29ace4cd18_b.jpg) no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+.background-img2
+{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/2/2c/Kathakali_-Play_with_Kaurava.jpg) no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+.background-img3
+{
+    background: url(https://thedailyeye.info/dailyeye_cms/Image/2016/10/1476950026alter-post-original.jpg) no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+.background-img4
+{
+    background: url(https://www.keralatourism.org/images/picture/hri/Kutiyattam_the_oldest_living_theatre_tradition_2278.jpg) no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+.background-img5
+{
+    background: url(https://ddnews.gov.in/sites/default/files/dolls-dying-of-the-light-puppet-theatre-prince-king-sultan-wooden-figures-colorful-color.jpg)  no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.background-img6
+{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/a/ac/India_village_musicians.jpg) no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-elements
+{
+padding:  10% 0;
+}
+
+    
+
+
